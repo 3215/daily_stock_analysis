@@ -227,6 +227,14 @@ jobs:
           LLM_OLLAMA_MODELS: ${{ vars.LLM_OLLAMA_MODELS || secrets.LLM_OLLAMA_MODELS }}
           LLM_OLLAMA_ENABLED: ${{ vars.LLM_OLLAMA_ENABLED || secrets.LLM_OLLAMA_ENABLED }}
           LLM_OLLAMA_EXTRA_HEADERS: ${{ vars.LLM_OLLAMA_EXTRA_HEADERS || secrets.LLM_OLLAMA_EXTRA_HEADERS }}
+          
+          LLM_NVIDIA_PROTOCOL: ${{ vars.LLM_NVIDIA_PROTOCOL || secrets.LLM_NVIDIA_PROTOCOL }}
+          LLM_NVIDIA_API_KEY: ${{ secrets.LLM_NVIDIA_API_KEY }}
+          LLM_NVIDIA_API_KEYS: ${{ secrets.LLM_NVIDIA_API_KEYS }}
+          LLM_NVIDIA_BASE_URL: ${{ vars.LLM_NVIDIA_BASE_URL || secrets.LLM_NVIDIA_BASE_URL }}
+          LLM_NVIDIA_MODELS: ${{ vars.NVIDIA_MODELS || secrets.NVIDIA_MODELS }}
+          LLM_NVIDIA_ENABLED: ${{ vars.LLM_NVIDIA_ENABLED || secrets.LLM_NVIDIA_ENABLED }}
+          LLM_NVIDIA_EXTRA_HEADERS: ${{ vars.LLM_NVIDIA_EXTRA_HEADERS || secrets.LLM_OLLAMA_EXTRA_HEADERS }}
 
           # ==========================================
           # 数据源
